@@ -8,8 +8,6 @@ This increases team security and decreases mistakes that can often lead to rotat
 
 1. Run the oneliner
 
-	Run this command
-
 	```
 	git clone https://github.com/ahatzz11/scripts.git; cd scripts/git-secrets; chmod +x install-git-secrets.sh; ./install-git-secrets.sh
 	```
@@ -29,10 +27,10 @@ This increases team security and decreases mistakes that can often lead to rotat
 
 2. Restart your terminal and verify this worked by running:
 
-
 	```
 	git secrets --list --global
 	```
+
 ### Useful commands
 
 Add a pattern to the ruleset:
