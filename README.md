@@ -9,7 +9,7 @@ This increases team security and decreases mistakes that can often lead to rotat
 1. Run the oneliner
 
 	```
-	git clone https://github.com/ahatzz11/scripts.git; cd scripts/git-secrets; chmod +x install-git-secrets.sh; ./install-git-secrets.sh
+	git clone https://github.com/ahatzz11/git-secrets-installer.git; cd git-secrets-installer; chmod +x install-git-secrets.sh; ./install-git-secrets.sh
 	```
 
 	It will:
