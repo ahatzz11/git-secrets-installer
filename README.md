@@ -6,11 +6,13 @@ This increases team security and decreases mistakes that can often lead to rotat
 
 ### Installing
 
-1. Run the oneliner
+1. Navigate to where you keep your code and run the oneliner
 
 	```
 	git clone https://github.com/ahatzz11/scripts.git; cd scripts/git-secrets; chmod +x install-git-secrets.sh; ./install-git-secrets.sh
 	```
+
+	*NOTE:* If you are running MacOS Catalina you may be asked to give access to iTerm2 (or whatever terminal you are using) to folders. Feel free to deny these requests if you know there is no code in those folders.
 
 	It will:
 	* Install `git-secrets` on your machine

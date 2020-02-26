@@ -43,7 +43,7 @@ echo -n 'installing git-secrets to all local git repositories...'
 if [ ! -d "temp" ]; then
 	mkdir temp
 fi
-find ~/ -name ".git" -print > temp/current.txt
+find . -name ".git" -print > temp/current.txt
 chmod +x temp/current.txt
 
 cat temp/current.txt | while read directory; do
