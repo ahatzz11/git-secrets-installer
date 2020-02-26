@@ -9,7 +9,7 @@ This increases team security and decreases mistakes that can often lead to rotat
 1. Navigate to where you keep your code and run the oneliner
 
 	```
-	git clone https://github.com/ahatzz11/scripts.git; cd scripts/git-secrets; chmod +x install-git-secrets.sh; ./install-git-secrets.sh
+	git clone https://github.com/ahatzz11/git-secrets-installer.git; cd git-secrets-installer; chmod +x install-git-secrets.sh; ./install-git-secrets.sh
 	```
 
 	*NOTE:* If you are running MacOS Catalina you may be asked to give access to iTerm2 (or whatever terminal you are using) to folders. Feel free to deny these requests if you know there is no code in those folders.
@@ -18,12 +18,14 @@ This increases team security and decreases mistakes that can often lead to rotat
 	* Install `git-secrets` on your machine
 	* Install hooks on all existing local git repositories
 	* Turn on automatic hook installation on future clones
-	* Create a default ruleset to match the following patterns:
+	* Create a default ruleset to match the following patterns (case insensitive)
 	  ```
 	  (.*)password:
 	  (.*)password=
 	  (.*)secret:
 	  (.*)secret=
+	  (.*)authorization=
+	  (.*)authorization=
 	  ```
 	  Having the property name is fine, but if you have any characters (including white spaces) it won't let you commit.
 
