@@ -24,7 +24,7 @@ This increases team security and decreases mistakes that can often lead to rotat
 	  (.*)password=
 	  (.*)secret:
 	  (.*)secret=
-	  (.*)authorization=
+	  (.*)authorization:
 	  (.*)authorization=
 	  ```
 	  Having the property name is fine, but if you have any characters (including white spaces) it won't let you commit.
